@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Large Datasets & Archives
+archive (1)/
+archive*/
+dataset/
+dataset_1500/
+dataset_helmet/
+test_yolo_conversion/
+Safety-Helmet-Wearing-Dataset/
+
+# Training runs & checkpoints
+runs/
+
+# Large Model weights
+*.pt
+*.onnx
+*.engine
+!Final Model/
+!Final Model/best.pt
+
+# OS & Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
